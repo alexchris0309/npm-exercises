@@ -1,7 +1,15 @@
-const $ = require('jquery')
+// const $ = require('jquery')
 
-const sayHello=()=> console.log('hello')
+// const sayHello=()=> 'hello';
 
-sayHello()
+// sayHello()
 
-$('body').css('background-color','red');
+// $('body').css('background-color','red');
+
+
+
+// const data = require('./say-hello.js');
+import data from './say-hello.js'
+
+
+console.log(data());
